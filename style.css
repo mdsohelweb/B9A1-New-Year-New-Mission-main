@@ -1,0 +1,77 @@
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+
+}
+
+/* Header Style Starts Here */
+
+.header-banner{
+  background: url('images/Rectangle\ 15.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+
+}
+.banner-container{
+  background: url('images/Banner\ Image.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 100px;
+  
+ }
+
+
+
+.header-text{
+  padding: 100px 0;
+}
+
+.header-text h3{
+color: #ffffff;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+
+}
+
+.header-text h1{
+color: #ffffff;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 1.2em;
+}
+
+.offer-containter{
+  margin: 0 100px;
+  text-align: center;
+}
+.offer-containter h2{
+  color: #F00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 0;
+  
+}
+.offer-containter p{
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.offer-containter h3{
+ color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  
+}
+
