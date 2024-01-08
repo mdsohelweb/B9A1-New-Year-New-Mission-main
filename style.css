@@ -1,28 +1,32 @@
+
 body {
   font-family: 'Merriweather', serif;
   font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif;
 
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 
 /* Header Style Starts Here */
 
-.header-banner{
-  background: url('images/Rectangle\ 15.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 16px;
 
-}
 .banner-container{
   background: url('images/Banner\ Image.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 50px 100px;
-  
+  margin: 50px 0 100px;
  }
+
+ .header-banner{
+  background: url('images/Rectangle\ 15.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
@@ -49,29 +53,90 @@ font-weight: 900;
 line-height: 1.2em;
 }
 
-.offer-containter{
-  margin: 0 100px;
-  text-align: center;
-}
-.offer-containter h2{
+/* Offer Area */
+
+.offer-containter, .offer-title{
   color: #F00;
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
-  padding-bottom: 0;
+  padding-bottom: 40px;
+  text-align: center;
+  
   
 }
-.offer-containter p{
+.offer-containter, .offer-text{
   color: #F00;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+text-align: center;
 }
-.offer-containter h3{
+
+.offer-containter, .offer-sub-title{
  color: #070211;
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+  text-align: center;
   
 }
+.offer-containter img{
+  padding-top: 50px;
+}
 
+/* Party Area */
+
+.party-container{
+  background: url('images/Vectorrr.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 0 100px;
+  display: flex;
+
+}
+
+.party-text h1{
+  width: 642px;
+color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+padding: 120px 0 30px 200px;
+
+
+}
+.party-text p{
+width: 697px;
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-left: 200px;
+}
+
+.join{
+  color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 250px;
+}
+
+.year-img{
+ width: 300px;
+}
+
+.join{
+  text-decoration: none;
+}
