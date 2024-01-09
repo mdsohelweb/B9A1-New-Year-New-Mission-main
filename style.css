@@ -2,7 +2,6 @@ body {
   font-family: 'Merriweather', serif;
   font-family: 'Inter', sans-serif;
   font-family: 'Merriweather', serif;
-
 }
 
 * {
@@ -11,7 +10,6 @@ body {
 }
 
 /* Header Style Starts Here */
-
 
 .banner-container {
   background-image: url('images/Banner\ Image.png');
@@ -29,8 +27,6 @@ body {
   padding: 100px;
 }
 
-
-
 .header-text {
   padding: 100px 0;
 }
@@ -41,7 +37,6 @@ body {
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
-
 }
 
 .header-text h1 {
@@ -58,19 +53,17 @@ body {
 
 .offer-containter,
 .offer-title {
-  color: #F00;
+  color: #f00;
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
   padding-bottom: 40px;
   text-align: center;
-
-
 }
 
 .offer-containter,
 .offer-text {
-  color: #F00;
+  color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
@@ -84,7 +77,6 @@ body {
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-
 }
 
 .offer-containter img {
@@ -92,7 +84,6 @@ body {
 }
 
 /* Party Area */
-
 
 .party-container {
   background: url('images/Vectorrr.png');
@@ -110,31 +101,27 @@ body {
 
 .party-text h1 {
   width: 642px;
-  color: #FFF;
+  color: #fff;
   font-family: Merriweather;
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
   line-height: 88px;
   letter-spacing: 7.04px;
-
-
-
 }
 
 .party-text p {
   width: 697px;
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-
 }
 
 .join {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
@@ -151,12 +138,12 @@ body {
 
 /* Place Area */
 .place-area-container {
-  background-color: bisque;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
   margin: 100px;
   text-align: center;
-  border-radius:10px ;
+  border-radius: 10px;
   padding: 100px 0;
-
+  margin-bottom: 100px;
 }
 
 .place-area-container .description {
@@ -166,27 +153,153 @@ body {
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
-
-
+  margin-bottom: 40px;
 }
 
 .red-text {
-  color: #F00;
-
+  color: #f00;
+}
+.join-now {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px;
+  align-items: center;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  text-decoration: none;
 }
 
-.join-now {
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-border-radius: 8px;
-background: #F00;
-border: none;
-margin-top: 40px;
+/* Coming Soon Area */
+.comming-soon-container {
+  margin: 100px 100px;
+  display: flex;
+}
 
+.left-section h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.left-section h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.left-section p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.middle-section img {
+  align-items: center;
+  width: 300px;
+  padding: 40px 40px;
+  border-radius: 500px;
+  border: 15px solid #f00;
+  margin: 0 50px;
+}
+.right-section h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.right-section p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+/* Sales Section */
+
+.sales-section-container {
+  margin: 100px 100px;
+  text-align: center;
+}
+
+.sales-section-container h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.sales-section-container h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.sales-section-container p {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+.sales-section-container .holiday {
+  color: #f00;
+}
+
+.image-section {
+  align-items: center;
+  display: flex;
+  margin: 100px 100px;
+}
+
+.left-item img {
+  width: 400px;
+}
+
+.middle-item img {
+  width: 200px;
+  display: block;
+  margin-right: -100px;
+}
+
+.right-item {
+  background-image: url('images/Rectangle\ 1.png');
+  padding: 200px;
+  z-index: -10;
+  border-radius: 10px;
+}
+
+.bottom-item img {
+  width: 79%;
+  align-items: center;
+  margin: -106px 103px;
+  display: flex;
 }
